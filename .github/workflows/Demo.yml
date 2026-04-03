@@ -10,5 +10,5 @@ jobs:
       - name: Run test
         run: |
           npm ci
-          node --test
+          npm test -- --watchAll=false
           echo "Testing done"
